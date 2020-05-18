@@ -23,6 +23,7 @@ module.exports = {
       res.status(200).send(user)
     } else {
       res.status(404).send('User not found')
+      
     }
   },
 }
