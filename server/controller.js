@@ -1,5 +1,6 @@
 const users = require('../data.json')
 
+
 module.exports = {
   getAllUsers: (req, res) => {
     const { email } = req.query
